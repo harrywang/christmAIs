@@ -35,7 +35,7 @@ HTML_TEMPLATE = """
 class Drawer:
     """Draw a 3x3 image form a given string"""
 
-    def __init__(self, webdriver_path='./webdriver/chromedriver'):
+    def __init__(self, webdriver_path='/Users/harrywang/sandbox/christmAIs/webdriver/chromedriver'):
         """Initialize the class
 
         Parameters

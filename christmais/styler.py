@@ -83,7 +83,8 @@ class Styler:
             Content image list and style image list
         """
         content_img_list = glob.glob('./**/{}'.format(content_path), recursive=True)
-        style_img_list = glob.glob('./**/{}'.format(style_path), recursive=True)
+        style_img_list = glob.glob('./**/{}'.format('styles/*.jpg'), recursive=True)
+        print("content list {} and style list is {}".format(content_img_list, style_img_list))
         if len(style_img_list) == 0 or len(content_img_list) == 0:
             msg = 'Content or style path not found! Make sure it\'s in repo root!'
             self.logger.error(msg)

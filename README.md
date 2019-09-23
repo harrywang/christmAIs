@@ -1,3 +1,5 @@
+python -m christmais.tasks.christmais_time --input="Thinking Machines" --style=/Users/harrywang/sandbox/christmAIs/styles/ang_kiukok.jpg --output=tmds-output
+
 # christmAIs
 
 [![cloud build status](https://storage.googleapis.com/tm-github-builds/build/christmAIs-master.svg)](https://console.cloud.google.com/cloud-build/builds?authuser=2&organizationId=301224238109&project=tm-github-builds)
